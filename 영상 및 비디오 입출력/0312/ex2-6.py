@@ -29,7 +29,7 @@ ax[0][1].imshow(imgRGB2, aspect = 'auto')
 ax[1][0].axis("off")
 ax[1][0].imshow(imgRGB3, aspect = "auto")
 
-ax[1][0].axis("off")
+ax[1][1].axis("off")
 ax[1][1].imshow(imgRGB4, aspect = 'auto')
 
 plt.subplots_adjust(left=0, bottom=0, right=1, top=1,
