@@ -22,7 +22,7 @@ def onMouse(event, x, y, flag, param):
             drows, dcols, channel = logo2.shape
             roi = result[0:drows, 0:dcols]
 
-            # 1번째 방법
+            # 1번째 방법 - 책이 빨간색일 경우에만 사용함
             # gray = cv2.cvtColor(logo2, cv2.COLOR_BGR2GRAY)
             # ret, mask = cv2.threshold(gray, 160, 255, cv2.THRESH_BINARY)
             # mask_inv = cv2.bitwise_not(mask)
