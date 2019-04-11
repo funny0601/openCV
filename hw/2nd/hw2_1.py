@@ -2,7 +2,7 @@
 import cv2
 import numpy as np
 src = cv2.imread('./flower.jpg')
-hsv = cv2.cvtColor(src, cv2.COLOR_BGR2HSV)
+hsv = cv2.cvtColor(src, cv2.COLOR_BGR2HSV) # hsv를 다루기 위해 변경
 
 def onChange(pos):  # 트랙바 핸들러
 
@@ -10,11 +10,11 @@ def onChange(pos):  # 트랙바 핸들러
     #lower = (0, 0, 0)
     #upper = (180, 255, thresh)
 
-    h, s, v = cv2.split(hsv)
-    ret, v2= cv2.threshold(v, thresh, 255, cv2.THRESH_BINARY)
-    src2 = cv2.merge((h, s, v2))
+    h, s, v = cv2.split(hsv) # h, s, v 분리
+    ret, v2= cv2.threshold(v, thresh, 255, cv2.THRESH_BINARY) #트랙바로 구한 임계값으로 v에 대한 이진화 수행
+    src2 = cv2.merge((h, s, v2)) # 이진화가 수행된 v를 다시 병합
 
-    #orange = cv2.bitwise_and(hsv, hsv, mask = v2)
+    #orange = cv2.bitwise_and(hsv, hsv, mask = v2) # 다시 원래대로 돌아오기
     #cv2.imshow('orange', orange)
 
     src3=cv2.cvtColor(src2, cv2.COLOR_HSV2BGR)
