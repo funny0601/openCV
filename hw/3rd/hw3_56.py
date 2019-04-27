@@ -1,4 +1,4 @@
-
+##### 미완성 #####
 import cv2, pafy
 import numpy as np
 

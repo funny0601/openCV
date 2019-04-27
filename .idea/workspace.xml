@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8edcbcb7-6787-4adb-a05e-15100b2f541d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hw/3rd/hw3_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw/3rd/hw3_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw/3rd/hw3_56.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hough 변환/0704.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hough 변환/0704.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/영상분할" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw/3rd/hw3_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw/3rd/hw3_1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +15,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Hough 변환/0702.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="21" selection-end-line="26" />
+            <state relative-caret-position="133">
+              <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="22" />
               <folding>
                 <element signature="e#10#20#0" expanded="true" />
               </folding>
@@ -67,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hw/3rd/hw3_1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="42" lean-forward="true" selection-start-line="3" selection-end-line="42" />
+            <state relative-caret-position="114">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -76,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hw/3rd/hw3_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="28" column="29" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="28" selection-end-column="29" />
+            <state relative-caret-position="145">
+              <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
               <folding>
                 <element signature="e#10#20#0" expanded="true" />
               </folding>
@@ -88,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hw/3rd/hw3_56.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+            <state relative-caret-position="323">
+              <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
               <folding>
                 <element signature="e#1#11#0" expanded="true" />
               </folding>
@@ -127,19 +122,18 @@
       <list>
         <option value="$PROJECT_DIR$/Hough 변환/0702.py" />
         <option value="$PROJECT_DIR$/Hough 변환/0703.py" />
-        <option value="$PROJECT_DIR$/hw/3rd/hw3_1.py" />
         <option value="$PROJECT_DIR$/hw/3rd/3coins/hw3_56.py" />
         <option value="$PROJECT_DIR$/hw/3rd/hw3_2.py" />
         <option value="$PROJECT_DIR$/Hough 변환/0704.py" />
         <option value="$PROJECT_DIR$/hw/3rd/hw3_56.py" />
+        <option value="$PROJECT_DIR$/hw/3rd/hw3_1.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="17" />
-    <option name="y" value="18" />
+    <option name="x" value="37" />
     <option name="width" value="1875" />
-    <option name="height" value="1029" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -224,7 +218,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.hw3_56 (1)">
+  <component name="RunManager" selected="Python.hw3_1">
     <configuration name="0704" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="OpenCV" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -332,11 +326,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.hw3_1" />
         <item itemvalue="Python.hw3_56 (1)" />
         <item itemvalue="Python.hw3_2" />
         <item itemvalue="Python.hw3_56" />
         <item itemvalue="Python.0704" />
-        <item itemvalue="Python.hw3_1" />
       </list>
     </recent_temporary>
   </component>
@@ -365,11 +359,18 @@
       <option name="project" value="LOCAL" />
       <updated>1556371469956</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="과제 추가">
+      <created>1556383973618</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1556383973618</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="14" y="15" width="1500" height="823" extended-state="0" />
+    <frame x="30" y="0" width="1500" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
@@ -377,13 +378,13 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32850942" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49931693" visible="true" weight="0.32850942" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49931693" visible="true" weight="0.3252149" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info active="true" anchor="bottom" id="GitHub Pull Requests" order="7" sideWeight="0.49931693" weight="0.3289855" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32850942" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50068307" side_tool="true" weight="0.3299566" />
       <window_info anchor="bottom" id="Python Console" order="11" />
@@ -392,10 +393,37 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pycharm - github" />
     <MESSAGE value="hough 변환" />
-    <option name="LAST_COMMIT_MESSAGE" value="hough 변환" />
+    <MESSAGE value="과제 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="과제 추가" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/영상분할/0706.py">
@@ -444,16 +472,6 @@
     <entry file="file://$PROJECT_DIR$/영상 및 비디오 입출력/0312/ex2-1.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hough 변환/0702.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="21" selection-end-line="26" />
-          <folding>
-            <element signature="e#10#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hw/3rd/3coins/3coin2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -463,17 +481,27 @@
     <entry file="file://$PROJECT_DIR$/hw/3rd/3coins/3coin6.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/임계값/0502.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="16" selection-start-line="16" selection-end-line="17" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Hough 변환/0703.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw/3rd/hw3_56.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+          <folding>
+            <element signature="e#1#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/임계값/0502.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="16" selection-start-line="16" selection-end-line="17" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -487,10 +515,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Hough 변환/0702.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <element signature="e#10#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/hw/3rd/hw3_1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="42" lean-forward="true" selection-start-line="3" selection-end-line="42" />
+        <state relative-caret-position="114">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
@@ -499,20 +537,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hw/3rd/hw3_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="28" column="29" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="28" selection-end-column="29" />
+        <state relative-caret-position="145">
+          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
           <folding>
             <element signature="e#10#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw/3rd/hw3_56.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-          <folding>
-            <element signature="e#1#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
