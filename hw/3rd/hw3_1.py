@@ -13,26 +13,25 @@ while (True):
     if not retval:
         break
 
-    gray_img = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)  # 흑백이미지로 변환
+    gray_img = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY) 
     blur_img = cv2.GaussianBlur(gray_img, ksize=(3,3), sigmaX = 10.0)
     canny_img = cv2.Canny(blur_img, 70, 210)
-    height, width = frame.shape[:2]  # 이미지 높이, 너비
+    height, width = frame.shape[:2]  
     vertices = np.array(
         [[(50, height), (width / 2 - 45, height / 2 + 60), (width / 2 + 45, height / 2 + 60), (width - 50, height)]],
         dtype=np.int32)
 
     color3 = (255, 255, 255)
     color1 = 255
-    mask = np.zeros_like(canny_img)  # mask = img와 같은 크기의 빈 이미지
-    if len(canny_img.shape) > 2:  # Color 이미지(3채널)라면 :
+    mask = np.zeros_like(canny_img)  
+    if len(canny_img.shape) > 2: 
         color = color3
-    else:  # 흑백 이미지(1채널)라면 :
+    else:  
         color = color1
 
-    # vertices에 정한 점들로 이뤄진 다각형부분(ROI 설정부분)을 color로 채움
+ 
     cv2.fillPoly(mask, vertices, color)
 
-    # 이미지와 color로 채워진 ROI를 합침
     ROI_image = cv2.bitwise_and(canny_img, mask)
     lines = cv2.HoughLinesP(ROI_image, 1, 1* np.pi/180, 30, np.array([]), minLineLength=10,
                             maxLineGap=20)
