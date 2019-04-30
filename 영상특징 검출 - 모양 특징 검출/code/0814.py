@@ -3,12 +3,12 @@ import cv2
 import numpy as np
 
 #1
-src = cv2.imread('./data/hand.jpg')
+src = cv2.imread('../data/hand.jpg')
 hsv = cv2.cvtColor(src, cv2.COLOR_BGR2HSV)
 lowerb = (0, 40, 0)
 upperb = (20, 180, 255)
 bImage = cv2.inRange(hsv, lowerb, upperb)
-
+# 중간에 임계값 구해서 이진영상 구함
 mode   = cv2.RETR_EXTERNAL
 method = cv2.CHAIN_APPROX_SIMPLE
 contours, hierarchy = cv2.findContours(bImage, mode, method)

@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 
 #1
-src = cv2.imread('./data/banana.jpg')
+src = cv2.imread('../data/banana.jpg')
 gray = cv2.cvtColor(src, cv2.COLOR_BGR2GRAY)
 ret, bImage = cv2.threshold(gray, 220, 255, cv2.THRESH_BINARY_INV)
 ##bImage = cv2.erode(bImage, None)

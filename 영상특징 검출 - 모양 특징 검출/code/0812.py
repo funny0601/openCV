@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 
 #1
-src = cv2.imread('./data/banana.jpg')
+src = cv2.imread('../data/banana.jpg')
 gray = cv2.cvtColor(src, cv2.COLOR_BGR2GRAY)
 ret, bImage = cv2.threshold(gray, 220, 255, cv2.THRESH_BINARY_INV)
 ##bImage = cv2.erode(bImage, None)
@@ -39,7 +39,7 @@ cv2.rectangle(dst3, (x, y), (x+width, y+height), (0,0,255), 2)
 cv2.imshow('dst3',  dst3)
 
 #4
-rect = cv2.minAreaRect(cnt)
+rect = cv2.minAreaRect(cnt) # bounding rect랑 동일할 수도 있음
 box = cv2.boxPoints(rect)
 box = np.int32(box)
 print('box=', box)
@@ -48,7 +48,7 @@ cv2.drawContours(dst4,[box],0,(0,0,255),2)
 cv2.imshow('dst4',  dst4)
 
 #5
-(x,y),radius = cv2.minEnclosingCircle(cnt)
+(x,y),radius = cv2.minEnclosingCircle(cnt) # 주어진 둘레를 둘러싸고 있는 최적의 원 찾기
 dst5 = dst2.copy()
 cv2.circle(dst5,(int(x),int(y)),int(radius),(0,0,255),2)
 cv2.imshow('dst5',  dst5)

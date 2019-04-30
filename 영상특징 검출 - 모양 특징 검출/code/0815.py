@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 
 #1
-src = cv2.imread('./data/hand.jpg')
+src = cv2.imread('../data/hand.jpg')
 hsv = cv2.cvtColor(src, cv2.COLOR_BGR2HSV)
 lowerb = (0, 40, 0)
 upperb = (20, 180, 255)
