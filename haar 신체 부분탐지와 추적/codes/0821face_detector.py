@@ -16,8 +16,8 @@ while True:
 
     if not ret:
             break
-    #frame = cv2.resize(frame, None, fx=scaling_factor, fy=scaling_factor, interpolation=cv2.INTER_AREA)
-        
+    # frame = cv2.resize(frame, None, fx=scaling_factor, fy=scaling_factor, interpolation=cv2.INTER_AREA)
+    # 스케일링하면 사이즈 조절됨
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY) # cascade 적용을 위해서 gray 영상으로 변환
 
     face_rects = face_cascade.detectMultiScale(gray, 1.3, 5) # xml읽어들인 객체의 영상에서 찾아진 얼굴의 사각형 범위
