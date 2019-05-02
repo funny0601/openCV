@@ -1,11 +1,13 @@
 import cv2, pafy  # pafy 라이브러리 import
 import numpy as np
 
-url = 'https://www.youtube.com/watch?v=dogNvT_gnvg&list=WL&index=14&t=58s'
-video = pafy.new(url)
-best = video.getbest(preftype='webm')
+cap = cv2.VideoCapture('차선 검출.mp4') # 동영상 파일 이름
 
-cap = cv2.VideoCapture(best.url)
+frame_size = (int(cap.get(cv2.CAP_PROP_FRAME_WIDTH)),
+             int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT)))
+
+out = cv2.VideoWriter('carhough.mp4', 0x7634706d, 5, frame_size, isColor=True)
+
 
 while (True):
     retval, frame = cap.read()
@@ -42,14 +44,16 @@ while (True):
             cv2.line(line_img , (x1, y1), (x2, y2), (0, 0, 255), 2)
     result = cv2.addWeighted(original, 1, line_img, 1, 0)
 
-    cv2.imshow('original', original)
-    cv2.imshow('ROI_image', ROI_image)
-    cv2.imshow('frame', canny_img )
+    #cv2.imshow('original', original)
+    #cv2.imshow('ROI_image', ROI_image)
+    #cv2.imshow('frame', canny_img )
     cv2.imshow('result', result)
-    key = cv2.waitKey(25)
+    out.write(result)
+    key = cv2.waitKey(5)
     if key == 27:  # Esc
         break
 
+out.release()
 cv2.destroyAllWindows()
 
 
