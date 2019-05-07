@@ -4,7 +4,7 @@ import numpy as np
 face_cascade = cv2.CascadeClassifier('cascade_files/haarcascade_frontalface_alt.xml')
 # xml을 읽어서 얼굴을 검출할 수 있는 분류기를 만듬
 
-face_mask = cv2.imread('../data/mask_hannibal1.png')
+face_mask = cv2.imread('../data/mask_frog.png')
 h_mask, w_mask = face_mask.shape[:2]
 # 가면에 해당되는 영상을 저장
 
@@ -33,15 +33,16 @@ while True:
             # 얼굴 전체를 표시하는 게 안 맞아서 그냥 크기 조절용
 
             #x = int(x + 0.1*w)
-            y = int(y + 0.4*h) # y의 위치를 약간 내림
+            # y = int(y + 0.4*h) # y의 위치를 약간 내림
             # w = int(0.8 * w)
-            h = int(0.75 * h) # 길이도 약간 줄임
+            # h = int(0.75 * h) # 길이도 약간 줄임
 
             frame_roi = frame[y:y+h, x:x+w] #얼굴에 해당하는 부분 자르고
             face_mask_small = cv2.resize(face_mask, (w, h), interpolation=cv2.INTER_AREA)
             # 마스크를 크기에 맞게 자르고
             gray_mask = cv2.cvtColor(face_mask_small, cv2.COLOR_BGR2GRAY)
-            ret, mask = cv2.threshold(gray_mask, 150, 255, cv2.THRESH_BINARY_INV)
+
+            ret, mask = cv2.threshold(gray_mask, 150, 255, cv2.THRESH_OTSU+cv2.THRESH_BINARY_INV) # 뽀로로 220
             mask_inv = cv2.bitwise_not(mask)
             masked_face = cv2.bitwise_and(face_mask_small, face_mask_small, mask=mask)
             masked_frame = cv2.bitwise_and(frame_roi, frame_roi, mask=mask_inv)
