@@ -6,7 +6,7 @@ mouth_cascade = cv2.CascadeClassifier('cascade_files/haarcascade_mcs_mouth.xml')
 if mouth_cascade.empty():
 	raise IOError('Unable to load the mouth cascade classifier xml file')
 
-cap = cv2.VideoCapture("../../data/mcem0_sa1.mp4")
+cap = cv2.VideoCapture("../data/mcem0_sa1.mp4")
 ds_factor = 0.5
 
 while True:
