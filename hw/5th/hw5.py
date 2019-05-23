@@ -2,7 +2,7 @@
 import cv2
 
 #1
-cap = cv2.VideoCapture('stitch_videoInput.mp4')
+cap = cv2.VideoCapture('test2.mp4')
 t = 0    # 프레임 번호
 images = [] # 추출된 프레임 저장
 STEP = 20 # 20번째 프레임마다 추출
