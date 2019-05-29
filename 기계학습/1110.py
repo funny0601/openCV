@@ -62,7 +62,7 @@ print('x_test.shape=',  x_test.shape)  # (10000, 784)
 print('y_test.shape=',  y_test.shape)  # (10000, 10)
 
 dst = np.zeros((20*IMAGE_SIZE, 20*IMAGE_SIZE), dtype=np.uint8)
-for i in range(400):
+for i in range(400): # 처음 400개의 데이터만 보기로 함
   x = i%20
   y = i//20
   x1 = x*IMAGE_SIZE

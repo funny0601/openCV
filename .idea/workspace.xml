@@ -1,23 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8edcbcb7-6787-4adb-a05e-15100b2f541d" name="Default Changelist" comment="코너 검출2">
-      <change afterPath="$PROJECT_DIR$/hw/5th/hw5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw/5th/test2.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw/5th/test2_stitch_out.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/동영상 처리/1021frame_diff.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/동영상 처리/KBS-Special-2011-10-09.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/특징매칭/cup1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/특징매칭/cup2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/특징매칭/pano1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/특징매칭/pano2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/특징매칭/pano3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/특징매칭/pano4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/특징매칭/pano5.png" afterDir="false" />
+    <list default="true" id="8edcbcb7-6787-4adb-a05e-15100b2f541d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/OpenCV.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/OpenCV.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/특징매칭/0919.py" beforeDir="false" afterPath="$PROJECT_DIR$/특징매칭/0919.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/특징매칭/0921.py" beforeDir="false" afterPath="$PROJECT_DIR$/특징매칭/0921.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/기계학습/1110.py" beforeDir="false" afterPath="$PROJECT_DIR$/기계학습/1110.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/움직임 처리/1007.py" beforeDir="false" afterPath="$PROJECT_DIR$/움직임 처리/1007.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,49 +17,57 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/특징매칭/0913.py">
+        <entry file="file://$PROJECT_DIR$/특징매칭/0921.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+            <state relative-caret-position="133">
+              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/특징매칭/0919.py">
+        <entry file="file://$PROJECT_DIR$/움직임 처리/1005.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="57">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/기계학습/1110.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="63" column="62" lean-forward="true" selection-start-line="63" selection-start-column="62" selection-end-line="63" selection-end-column="62" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/동영상 처리/1021frame_diff.py">
+        <entry file="file://$PROJECT_DIR$/기계학습/1111.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="25" column="55" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
+            <state>
               <folding>
-                <element signature="e#0#10#0" expanded="true" />
+                <element signature="e#9#19#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/특징매칭/0921.py">
+        <entry file="file://$PROJECT_DIR$/기계학습/1116.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            <state relative-caret-position="361">
+              <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hw/5th/hw5.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/움직임 처리/1007.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="236">
+              <caret line="90" column="39" lean-forward="true" selection-start-line="90" selection-start-column="39" selection-end-line="90" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -107,6 +104,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>kernel</find>
+      <find>d</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -149,13 +147,16 @@
         <option value="$PROJECT_DIR$/특징매칭/0919.py" />
         <option value="$PROJECT_DIR$/동영상 처리/1021frame_diff.py" />
         <option value="$PROJECT_DIR$/hw/5th/hw5.py" />
+        <option value="$PROJECT_DIR$/움직임 처리/1005.py" />
+        <option value="$PROJECT_DIR$/움직임 처리/1007.py" />
+        <option value="$PROJECT_DIR$/기계학습/1110.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="75" />
-    <option name="y" value="30" />
-    <option name="width" value="1760" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="215" />
+    <option name="y" value="5" />
+    <option name="width" value="1660" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -164,7 +165,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -175,23 +175,13 @@
             <path>
               <item name="OpenCV" type="b2602c69:ProjectViewProjectNode" />
               <item name="OpenCV" type="462c0819:PsiDirectoryNode" />
-              <item name="hw" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenCV" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenCV" type="462c0819:PsiDirectoryNode" />
-              <item name="hw" type="462c0819:PsiDirectoryNode" />
-              <item name="5th" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenCV" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenCV" type="462c0819:PsiDirectoryNode" />
-              <item name="특징매칭" type="462c0819:PsiDirectoryNode" />
+              <item name="기계학습" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -201,17 +191,17 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\seyoung\PycharmProjects\OpenCV\hw\5th" />
-      <recent name="C:\Users\seyoung\PycharmProjects\OpenCV" />
-      <recent name="C:\Users\seyoung\PycharmProjects\OpenCV\동영상 처리" />
-      <recent name="C:\Users\seyoung\PycharmProjects\OpenCV\특징매칭" />
-      <recent name="C:\Users\seyoung\PycharmProjects\OpenCV\hw\4th" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\seyoung\PycharmProjects\OpenCV\hw\5th" />
       <recent name="C:\Users\seyoung\PycharmProjects\OpenCV\특징매칭" />
       <recent name="C:\Users\seyoung\PycharmProjects\OpenCV\hw\4th\data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\seyoung\PycharmProjects\OpenCV\기계학습" />
+      <recent name="C:\Users\seyoung\PycharmProjects\OpenCV\hw\5th" />
+      <recent name="C:\Users\seyoung\PycharmProjects\OpenCV" />
+      <recent name="C:\Users\seyoung\PycharmProjects\OpenCV\동영상 처리" />
+      <recent name="C:\Users\seyoung\PycharmProjects\OpenCV\특징매칭" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -226,70 +216,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1021frame_diff">
-    <configuration name="0902" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="OpenCV" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/특징기술자 추출" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/특징기술자 추출/0902.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="0906" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="OpenCV" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/특징기술자 추출" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/특징기술자 추출/0906.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="0913" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="OpenCV" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/특징매칭" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/특징매칭/0913.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.1110">
     <configuration name="0919" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="OpenCV" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -303,6 +230,48 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/특징매칭/0919.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1005" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="OpenCV" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/움직임 처리" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/움직임 처리/1005.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1007" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="OpenCV" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/움직임 처리" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/움직임 처리/1007.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -332,13 +301,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="1110" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="OpenCV" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/기계학습" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/기계학습/1110.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1110" />
+        <item itemvalue="Python.1007" />
+        <item itemvalue="Python.1005" />
         <item itemvalue="Python.1021frame_diff" />
         <item itemvalue="Python.0919" />
-        <item itemvalue="Python.0913" />
-        <item itemvalue="Python.0902" />
-        <item itemvalue="Python.0906" />
       </list>
     </recent_temporary>
   </component>
@@ -472,27 +462,40 @@
       <option name="project" value="LOCAL" />
       <updated>1558398153807</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="hw5, 동영상 처리">
+      <created>1558577020237</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1558577020237</updated>
+    </task>
+    <task id="LOCAL-00019" summary="기계학습">
+      <created>1559001479984</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1559001479984</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="60" y="24" width="1408" height="832" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1909621" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17305152" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4993395" weight="0.32719547" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.56778425" visible="true" weight="0.21428572" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49489796" weight="0.39714286" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5667107" weight="0.21388102" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49405548" weight="0.39660057" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info active="true" anchor="bottom" id="GitHub Pull Requests" order="7" sideWeight="0.49931693" weight="0.3289855" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32850942" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.43221575" side_tool="true" visible="true" weight="0.21428572" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.4332893" side_tool="true" visible="true" weight="0.21388102" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.3281471" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -558,7 +561,9 @@
     <MESSAGE value="hw4 과제 끝" />
     <MESSAGE value="특징기술자" />
     <MESSAGE value="스티칭" />
-    <option name="LAST_COMMIT_MESSAGE" value="스티칭" />
+    <MESSAGE value="hw5, 동영상 처리" />
+    <MESSAGE value="기계학습" />
+    <option name="LAST_COMMIT_MESSAGE" value="기계학습" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -572,41 +577,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/임계값/0502.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="16" selection-start-line="16" selection-end-line="17" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hough 변환/0704.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-          <folding>
-            <element signature="e#11#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hough 변환/0702.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="22" />
-          <folding>
-            <element signature="e#10#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw/3rd/hw3_56.py" />
-    <entry file="file://$PROJECT_DIR$/영상분할/0706.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="26" column="2" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/영상특징 검출 - 모양 특징 검출/code/0809.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -787,6 +757,13 @@
     <entry file="file://$PROJECT_DIR$/특징기술자 추출/chessBoard.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/hw/5th/hw5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/특징매칭/0913.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -798,6 +775,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/동영상 처리/1021frame_diff.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="25" column="55" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/특징매칭/0921.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/움직임 처리/1005.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/기계학습/1111.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#9#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/기계학습/1116.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -813,27 +830,17 @@
     <entry file="file://$PROJECT_DIR$/특징매칭/stitch_image4.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/동영상 처리/1021frame_diff.py">
+    <entry file="file://$PROJECT_DIR$/움직임 처리/1007.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="25" column="55" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="236">
+          <caret line="90" column="39" lean-forward="true" selection-start-line="90" selection-start-column="39" selection-end-line="90" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/특징매칭/0921.py">
+    <entry file="file://$PROJECT_DIR$/기계학습/1110.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hw/5th/hw5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <caret line="63" column="62" lean-forward="true" selection-start-line="63" selection-start-column="62" selection-end-line="63" selection-end-column="62" />
         </state>
       </provider>
     </entry>
