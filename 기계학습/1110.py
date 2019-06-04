@@ -34,7 +34,7 @@ def extract_labels(filename, num_images):
   return labels
 
 def ont_hot_encoding(y): # assume that y is 1-D array
-    t = np.zeros((y.size, 10), dtype=np.float32)
+    t = np.zeros((y.size, 10), dtype=np.float32) # 주어진 값에 대해 라벨링 값을 모두 0으로 만들고 라벨에 해당되는 것만 1로 표현
     for i, row in enumerate(t):
         row[y[i]] = 1      
     return t
@@ -49,7 +49,7 @@ def load_MINIST(flatten=True, one_hot=True):
   if flatten:
     x_train= x_train.reshape(-1, IMAGE_SIZE*IMAGE_SIZE) # (60000, 784)
     x_test = x_test.reshape(-1, IMAGE_SIZE*IMAGE_SIZE)  # (10000, 784)
-  if one_hot:
+  if one_hot:# 원핫인코딩
     y_train = ont_hot_encoding(y_train)
     y_test = ont_hot_encoding(y_test)    
   return (x_train, y_train), (x_test, y_test)

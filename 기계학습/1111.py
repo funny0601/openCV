@@ -27,15 +27,15 @@ while True:
     key = cv2.waitKey(25)    
     if key == 27: 
         break;
-    elif key == ord('r'):
+    elif key == ord('r'):  # 화면 클리어
         dst[:,:] = 0
         cv2.imshow('dst',dst)
     elif key == ord(' '):
         gray = cv2.cvtColor(dst, cv2.COLOR_BGR2GRAY)
         contours, _ = cv2.findContours(gray, mode, method)
-
+        # 윤곽선 검출
         for i, cnt in enumerate(contours):
-#3-1
+#3-1    # 모든 윤곽선에 대해서 ..
             x, y, width, height = cv2.boundingRect(cnt)
             cv2.rectangle(dst, (x, y), (x+width, y+height), (0,0,255), 2)
             cx, cy = x + width/2, y + height/2
@@ -46,7 +46,7 @@ while True:
 ##            (cx,cy),r = cv2.minEnclosingCircle(cnt)
             cx, cy, r= int(cx), int(cy), int(r)
             img = gray[cy-r:cy+r, cx-r:cx+r]
-            img = cv2.resize(img, dsize=(20, 20),interpolation=cv2.INTER_AREA)            
+            img = cv2.resize(img, dsize=(20, 20),interpolation=cv2.INTER_AREA) # 양 옆에 4 정도의 테두리를 준다. 그래서 20+4+4 크기가 된다
             x_img[:,:] = 0
             x_img[4:24, 4:24] = img     # 입력이미지에 숫자 넣기
             x_img = cv2.dilate(x_img, None, 2)
